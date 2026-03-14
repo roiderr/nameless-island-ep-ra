@@ -48,7 +48,7 @@ aldeba_in,96,181,4	script	Kafra Service	113,{
 		mes "Please make use of";
 		mes "the Kafra Services that are";
 		mes "available throughout all of";
-		mes "Midgard. Thank you for";
+		mes "Rune Midgard. Thank you for";
 		mes "visiting the Kafra Headquarters.";
 		close2;
 		break;
@@ -147,7 +147,7 @@ geffen,203,123,2	script	Kafra Employee::geffen2	114,{
 	mes "Welcome!";
 	mes "The Kafra Corporation";
 	mes "will always support the";
-	mes "adventurers of Rune-Midgarts";
+	mes "adventurers of Rune-Midgard";
 	mes "with its excellent service. So";
 	mes "what can I do for you today?";
 	callfunc "F_Kafra",5,0,0,30,750;
@@ -177,7 +177,7 @@ morocc,160,258,4	script	Kafra::kaf_morocc2	114,{
 	mes "Welcome!";
 	mes "The Kafra Corporation";
 	mes "will always support the";
-	mes "adventurers of Rune-Midgarts";
+	mes "adventurers of Rune-Midgard";
 	mes "with its excellent service. So";
 	mes "what can I do for you today?";
 	callfunc "F_Kafra",5,0,0,60,930;
@@ -278,7 +278,7 @@ prontera,282,200,2	script	Kafra Employee::kaf_prontera4	114,{
 	mes "Welcome!";
 	mes "The Kafra Corporation";
 	mes "will always support the";
-	mes "adventurers of Rune-Midgarts";
+	mes "adventurers of Rune-Midgard";
 	mes "with its excellent service. So";
 	mes "what can I do for you today?";
 	callfunc "F_Kafra",5,0,0,40,800;
@@ -623,7 +623,7 @@ prt_fild05,290,224,3	script	Kafra Employee::prt_fild05	114,{
 	mes "Welcome!";
 	mes "The Kafra Corporation";
 	mes "will always support the";
-	mes "adventurers of Rune-Midgarts";
+	mes "adventurers of Rune-Midgard";
 	mes "with its excellent service. So";
 	mes "what can I do for you today?";
 	callfunc "F_Kafra",5,1,1,40,0;
@@ -646,13 +646,13 @@ mjolnir_02,83,362,4	script	Kafra Employee::kaf_mjolnir_02	116,{
 }
 
 // - Morocc Ruins
-moc_ruins,59,157,5	script	Kafra Employee::moc_ruins	114,{
+moc_ruins,59,157,7	script	Kafra Employee::moc_ruins	114,{
 	cutin "kafra_04",2;
 	mes "[Kafra Employee]";
 	mes "Welcome!";
 	mes "The Kafra Corporation";
 	mes "will always support the";
-	mes "adventurers of Rune-Midgarts";
+	mes "adventurers of Rune-Midgard";
 	mes "with its excellent service. So";
 	mes "what can I do for you today?";
 	callfunc "F_Kafra",5,2,1,90,1200;
@@ -686,13 +686,4 @@ alb2trea,59,69,5	script	Kafra Employee::kaf_alb2trea	117,{
 	callfunc "F_Kafra",5,2,1,50,0;
 	savepoint "alb2trea",92,64,1,1;
 	callfunc "F_KafEnd",0,1,"at Sunken Ship";
-}
-
-// Brasilis
-//============================================================
-brasilis,197,221,4	script	Kafra Employee::kaf_bra	4_F_KAFRA1,{
-	cutin "kafra_01",2;
-	callfunc "F_Kafra",0,3,0,80,700;
-	savepoint "brasilis",195,259,1,1;
-	callfunc "F_KafEnd",0,1,"in the city of Brasilis";
 }
