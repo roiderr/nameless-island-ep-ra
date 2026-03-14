@@ -1447,29 +1447,6 @@ Body:
     #    Mob: GEFFEN_FENRIR
     #    Count: 50
     Score: 50
-  - Id: 128047
-    Group: Battle
-    Name: Endless Tower challenger
-    Targets:
-      - Id: 0
-        Mob: NAGHT_SIEGER
-    Score: 10
-  - Id: 128048
-    Group: Battle
-    Name: Endless Tower Slayer
-    Targets:
-      - Id: 0
-        Mob: NAGHT_SIEGER
-        Count: 10
-    Score: 20
-  - Id: 128049
-    Group: Battle
-    Name: Lord of the tower
-    Targets:
-      - Id: 0
-        Mob: NAGHT_SIEGER
-        Count: 50
-    Score: 50
   - Id: 128050
     Group: Battle
     Name: Novice Exorcist
