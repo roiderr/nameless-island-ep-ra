@@ -23,7 +23,7 @@
 //= 2.9 Added Quest Log commands. [Kisuka]
 //============================================================ 
 
-moc_ruins,86,103,1	script	Thug#rg	118,{
+morocc,100,104,1	script	Thug#rg	118,{
 	mes "[Thug]";
 	mes "*Sigh...*";
 	mes "What is life?";
