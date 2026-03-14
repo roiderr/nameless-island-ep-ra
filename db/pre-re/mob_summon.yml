@@ -123,8 +123,6 @@ Body:
         Rate: 500000
       - Mob: GOPINICH
         Rate: 500000
-      - Mob: S_NYDHOG
-        Rate: 500000
   - Group: Branch_Of_Dead_Tree
     Default: SCORPION
     Summon:
@@ -991,68 +989,6 @@ Body:
       - Mob: UZHAS
         Rate: 71428
       - Mob: MAVKA
-        Rate: 71428
-      - Mob: MOROCC_1
-        Rate: 71428
-      - Mob: MOROCC_2
-        Rate: 71428
-      - Mob: MOROCC_3
-        Rate: 71428
-      - Mob: MOROCC_4
-        Rate: 71428
-      - Mob: BANSHEE_MASTER
-        Rate: 71428
-      - Mob: BEHOLDER_MASTER
-        Rate: 71428
-      - Mob: COBALT_MINERAL
-        Rate: 71428
-      - Mob: HEAVY_METALING
-        Rate: 71428
-      - Mob: HELL_APOCALIPS
-        Rate: 71428
-      - Mob: ZAKUDAM
-        Rate: 71428
-      - Mob: TATACHO
-        Rate: 71428
-      - Mob: CENTIPEDE
-        Rate: 71428
-      - Mob: NEPENTHES
-        Rate: 71428
-      - Mob: HILLSRION
-        Rate: 71428
-      - Mob: HARDROCK_MOMMOTH
-        Rate: 71428
-      - Mob: TENDRILRION
-        Rate: 71428
-      - Mob: CORNUS
-        Rate: 71428
-      - Mob: NAGA
-        Rate: 71428
-      - Mob: LUCIOLA_VESPA
-        Rate: 71428
-      - Mob: PINGUICULA
-        Rate: 71428
-      - Mob: CENTIPEDE_LARVA
-        Rate: 71428
-      - Mob: DRACO
-        Rate: 71428
-      - Mob: PINGUICULA_D
-        Rate: 71428
-      - Mob: AQUA_ELEMENTAL
-        Rate: 71428
-      - Mob: RATA
-        Rate: 71428
-      - Mob: DUNEYRR
-        Rate: 71428
-      - Mob: ANCIENT_TREE
-        Rate: 71428
-      - Mob: RHYNCHO
-        Rate: 71428
-      - Mob: PHYLLA
-        Rate: 71428
-      - Mob: DARK_SHADOW
-        Rate: 71428
-      - Mob: BRADIUM_GOLEM
         Rate: 71428
   - Group: Classchange
     Default: BAPHOMET
