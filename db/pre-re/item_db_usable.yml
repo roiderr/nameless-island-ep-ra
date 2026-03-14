@@ -7295,12 +7295,6 @@ Body:
     Name: PCBang Coupon Box
     Type: Usable
     Weight: 10
-  - Id: 12408
-    AegisName: Leaf_Cat_Ball
-    Name: Leaf Cat Ball
-    Type: Usable
-    Script: |
-      pet;
   - Id: 12409
     AegisName: Pork_Belly_H
     Name: 1st Class Pork Belly
