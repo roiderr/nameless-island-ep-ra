@@ -8423,97 +8423,6 @@ Body:
       bonus2 bMagicAddRace,RC_Angel,50;
       bonus2 bMagicAddRace,RC_DemiHuman,50;
       bonus2 bMagicAddRace,RC_Player_Human,50;
-  - Id: 4442
-    AegisName: Tatacho_Card
-    Name: Tatacho Card
-    Type: Card
-    Buy: 20
-    Weight: 10
-    Locations:
-      Left_Hand: true
-    Flags:
-      BuyingStore: true
-    Script: |
-      bonus2 bSubEle,Ele_Neutral,20;
-      bonus2 bAddEle,Ele_Neutral,5;
-  - Id: 4443
-    AegisName: Aqua_Elemental_Card
-    Name: Aqua Elemental Card
-    Type: Card
-    Buy: 20
-    Weight: 10
-    Locations:
-      Left_Hand: true
-    Flags:
-      BuyingStore: true
-    Script: |
-      bonus2 bSubEle,Ele_Water,20;
-      bonus2 bAddEle,Ele_Water,5;
-  - Id: 4444
-    AegisName: Draco_Card
-    Name: Draco Card
-    Type: Card
-    Buy: 20
-    Weight: 10
-    Locations:
-      Left_Hand: true
-    Flags:
-      BuyingStore: true
-    Script: |
-      bonus2 bSubEle,Ele_Earth,20;
-      bonus2 bAddEle,Ele_Earth,5;
-  - Id: 4445
-    AegisName: Luciola_Vespa_Card
-    Name: Luciola Vespa Card
-    Type: Card
-    Buy: 20
-    Weight: 10
-    Locations:
-      Left_Hand: true
-    Flags:
-      BuyingStore: true
-    Script: |
-      bonus2 bSubEle,Ele_Wind,20;
-      bonus2 bAddEle,Ele_Wind,5;
-  - Id: 4447
-    AegisName: Centipede_Card
-    Name: Centipede Card
-    Type: Card
-    Buy: 20
-    Weight: 10
-    Locations:
-      Left_Hand: true
-    Flags:
-      BuyingStore: true
-    Script: |
-      bonus2 bSubEle,Ele_Poison,20;
-      bonus2 bAddEle,Ele_Poison,5;
-  - Id: 4448
-    AegisName: Cornus_Card
-    Name: Cornus Card
-    Type: Card
-    Buy: 20
-    Weight: 10
-    Locations:
-      Left_Hand: true
-    Flags:
-      BuyingStore: true
-    Script: |
-      bonus2 bSubEle,Ele_Holy,20;
-      bonus2 bAddEle,Ele_Holy,5;
-  - Id: 4449
-    AegisName: Dark_Shadow_Card
-    Name: Dark Shadow Card
-    Type: Card
-    Buy: 20
-    Weight: 10
-    Locations:
-      Left_Hand: true
-    Flags:
-      BuyingStore: true
-    Script: |
-      bonus2 bSubEle,Ele_Dark,20;
-      bonus2 bAddEle,Ele_Dark,5;
   - Id: 4450
     AegisName: Banshee_Master_Card
     Name: Banshee Master Card
@@ -8527,43 +8436,6 @@ Body:
     Script: |
       bonus bInt,1;
       bonus bMatk,10;
-  - Id: 4451
-    AegisName: Ant_Buyanne_Card
-    Name: Entweihen Crothen Card
-    Type: Card
-    Buy: 20
-    Weight: 10
-    Locations:
-      Armor: true
-    Flags:
-      BuyingStore: true
-    Script: |
-      bonus bMatk,100;
-  - Id: 4452
-    AegisName: Centipede_Larva_Card
-    Name: Centipede Larva Card
-    Type: Card
-    Buy: 20
-    Weight: 10
-    Locations:
-      Right_Hand: true
-    Flags:
-      BuyingStore: true
-    Script: |
-      bonus bInt,1;
-      bonus bMatk,3;
-  - Id: 4453
-    AegisName: Hilsrion_Card
-    Name: Hillsrion Card
-    Type: Card
-    Buy: 20
-    Weight: 10
-    Locations:
-      Right_Hand: true
-    Flags:
-      BuyingStore: true
-    Script: |
-      bonus bBaseAtk,25;
   - Id: 4700
     AegisName: Strength1
     Name: STR+1
@@ -11057,10 +10929,6 @@ Body:
     Name: Mysterious Dyestuff
     Type: Etc
     Weight: 10
-  - Id: 6221
-    AegisName: Mystic_Leaf_Cat_Ball
-    Name: Mystic Leaf Cat Ball
-    Type: Etc
   - Id: 6222
     AegisName: Shining_Beads
     Name: Shining Beads
