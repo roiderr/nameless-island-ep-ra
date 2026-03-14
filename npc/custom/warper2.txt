@@ -1,0 +1,195 @@
+//===== rAthena Script =======================================
+//= Warper
+//============================================================
+
+-	script	Warper	-1,{
+function Go;
+
+// --------------------------------------------------
+//	Main Menu:
+// --------------------------------------------------
+
+menu	"Last Warp ^777777["+lastwarp$+"]^000000",-,
+		" ~ Towns",Towns,
+		" ~ Dungeons",Dungeons,
+		" ~ Save Point",OPT_SAVE;
+
+	if (lastwarp$ == "")
+		message strcharinfo(0),"You haven't warped anywhere yet.";
+	else
+		warp lastwarp$,lastwarpx,lastwarpy;
+	end;
+
+function Go {
+	set lastwarp$, getarg(0);
+	set lastwarpx, getarg(1,0);
+	set lastwarpy, getarg(2,0);
+	warp getarg(0),getarg(1,0),getarg(2,0);
+	end;
+}
+
+// --------------------------------------------------
+	Towns:
+// --------------------------------------------------
+menu	"Prontera",T_PRT, "Alberta",T_ALB, "Aldebaran",T_ALD, "Amatsu",T_AMA, "Ayothaya",T_AYO,
+		"Comodo",T_CMD, "Einbech",T_EBE,
+		"Einbroch",T_EBO, "Geffen",T_GEF, "Gonryun",T_GON, "Hugel",T_HUG,
+		"Izlude",T_IZL, "Jawaii",T_JAW, "Lighthalzen",T_LHZ, "Louyang",T_LOU, "Lutie",T_XMA,
+		"Morroc",T_MOR, "Moscovia",T_MOS,
+		"Niflheim",T_NIF, "Payon",T_PAY, "Rachel",T_RAC,
+		"Umbala",T_UMB, "Veins",T_VEI, "Yuno",T_YUN;
+
+T_PRT: Go("prontera",156,180);
+T_ALB: Go("alberta",32,235);
+T_ALD: Go("aldebaran",140,118);
+T_AMA: Go("amatsu",115,150);
+T_AYO: Go("ayothaya",208,191);
+T_CMD: Go("comodo",189,150);
+T_EBE: Go("einbech",169,128);
+T_EBO: Go("einbroch",64,200);
+T_GEF: Go("geffen",119,59);
+T_GON: Go("gonryun",159,119);
+T_HUG: Go("hugel",96,145);
+T_IZL: Go("izlude",128,113);
+T_JAW: Go("jawaii",238,195);
+T_LHZ: Go("lighthalzen",158,90);
+T_LOU: Go("louyang",217,94);
+T_XMA: Go("xmas",147,130);
+T_MOR: Go("morocc",156,93);
+T_MOS: Go("moscovia",223,184);
+T_NIF: Go("niflheim",202,173);
+T_PAY: Go("payon",170,97);
+T_RAC: Go("rachel",113,132);
+T_UMB: Go("umbala",126,146);
+T_VEI: Go("veins",218,129);
+T_YUN: Go("yuno",158,118);
+
+// --------------------------------------------------
+	Dungeons:
+// --------------------------------------------------
+menu	"Abyss Lakes",D_ABY, "Amatsu Dungeon",D_AMA, "Anthell",D_ANT,
+		"Ayothaya Dungeon",D_AYO, "Beach Dungeon",D_BEA,
+		"Bio Labs",D_LHZ, "Byalan Dungeon",D_IZL, "Clock Tower",D_CTW,
+		"Coal Mines",D_MJO, "Culvert",D_PRT,
+		"Einbroch Dungeon",D_EBE, "Geffen Dungeon",D_GEF,
+		"Glast Heim",D_GLA, "Gonryun Dungeon",D_GON, "Hidden Dungeon",D_MZE,
+		"Ice Dungeon",D_ICE, "Juperos",D_JUP, "Kiel Dungeon",D_KIE, "Louyang Dungeon",D_LOU,
+		"Magma Dungeon",D_MAG, "Moscovia Dungeon",D_MOS,
+		"Nameless Island",D_NAM, "Niflheim",D_NIF,
+		"Odin Temple",D_ODI, "Orc Dungeon",D_ORC,
+		"Payon Dungeon",D_PAY, "Pyramids",D_PRY, "Rachel Sanctuary",D_RAC,
+		"Sphinx",D_SPH, "Sunken Ship",D_SUK, "Thanatos Tower",D_THA,
+		"Thor Volcano",D_THR, "Toy Factory",D_XMA, "Turtle Dungeon",D_TUR, "Umbala Dungeon",D_UMB;
+
+D_ABY: Go("abyss_01",260,268);
+D_AMA: Go("ama_dun01",229,10);
+D_ANT: Go("anthell01",35,262);
+D_AYO: Go("ayo_dun01",275,18);
+D_BEA: Go("beach_dun",266,67);
+D_LHZ: Go("lighthalzen",309,299);
+D_IZL: Go("iz_dun00",168,168);
+D_CTW: Go("c_tower1",199,159);
+D_MJO: Go("mjo_dun01",52,17);
+D_PRT: Go("prt_sewb1",131,247);
+D_NAM: Go("ve_fild07",128,133);
+D_EBE: Go("ein_dun01",22,14);
+D_GEF: Go("gef_dun00",104,99);
+D_GLA: Go("glast_01",370,304);
+D_GON: Go("gon_dun01",153,48);
+D_MZE: Go("prt_maze01",17,111);
+D_ICE: Go("ice_dun01",157,15);
+D_JUP: Go("juperos_01",53,247);
+D_KIE: Go("yuno_fild08",74,172);
+D_LOU: Go("lou_dun01",218,195);
+D_MAG: Go("mag_dun01",126,68);
+D_MOS: Go("mosk_dun01",189,45);
+D_NIF: Go("nif_fild02",376,235);
+D_ODI: Go("odin_tem01",100,146);
+D_ORC: Go("orcsdun01",32,170);
+D_PAY: Go("pay_dun00",21,183);
+D_PRY: Go("moc_pryd01",192,9);
+D_RAC: Go("ra_san01",140,135);
+D_SPH: Go("in_sphinx1",288,9);
+D_SUK: Go("treasure01",69,24);
+D_THA: Go("tha_t01",149,38);
+D_THR: Go("thor_v01",21,229);
+D_XMA: Go("xmas_dun01",205,16);
+D_TUR: Go("tur_dun01",157,39);
+D_UMB: Go("um_dun01",42,30);
+
+// --- REM ---
+// D_GFN: Go("gefenia01",58,169);
+// D_NAM: Go("abbey01",51,12);
+// D_NAM: Go("nameless_n",257,217);
+// D_KIE: Go("kh_dun01",22,216);
+// D_LHZ: Go("lhz_dun01",150,288);
+// D_RAC: Go("ra_temin",28,313);
+
+// --------------------------------------------------
+	OPT_SAVE:
+// --------------------------------------------------
+set @currentMap$, strcharinfo(3);
+if (@currentMap$ == "prontera") savepoint "prontera",156,180;
+else if (@currentMap$ == "morocc") savepoint "morocc",156,93;
+else if (@currentMap$ == "geffen") savepoint "geffen",119,59;
+else if (@currentMap$ == "payon") savepoint "payon",170,97;
+else if (@currentMap$ == "alberta") savepoint "alberta",32,235;
+else if (@currentMap$ == "izlude") savepoint "izlude",128,113;
+else if (@currentMap$ == "aldebaran") savepoint "aldebaran",140,118;
+else if (@currentMap$ == "xmas") savepoint "xmas",147,130;
+else if (@currentMap$ == "comodo") savepoint "comodo",189,150;
+else if (@currentMap$ == "yuno") savepoint "yuno",158,118;
+else if (@currentMap$ == "amatsu") savepoint "amatsu",115,150;
+else if (@currentMap$ == "gonryun") savepoint "gonryun",159,119;
+else if (@currentMap$ == "umbala") savepoint "umbala",126,146;
+else if (@currentMap$ == "niflheim") savepoint "niflheim",202,173;
+else if (@currentMap$ == "louyang") savepoint "louyang",217,94;
+else if (@currentMap$ == "jawaii") savepoint "jawaii",238,195;
+else if (@currentMap$ == "ayothaya") savepoint "ayothaya",208,191;
+else if (@currentMap$ == "einbroch") savepoint "einbroch",64,200;
+else if (@currentMap$ == "lighthalzen") savepoint "lighthalzen",158,90;
+else if (@currentMap$ == "einbech") savepoint "einbech",169,128;
+else if (@currentMap$ == "hugel") savepoint "hugel",96,145;
+else if (@currentMap$ == "rachel") savepoint "rachel",113,132;
+else if (@currentMap$ == "veins") savepoint "veins",218,129;
+else if (@currentMap$ == "moscovia") savepoint "moscovia",223,184;
+else goto L_NSAVE;
+mes "[Warper]";
+mes "Your Respawn Point";
+mes "has been saved here.";
+close;
+end;
+L_NSAVE:
+mes "[Warper]";
+mes "I'm sorry,";
+mes "can't save here.";
+close;
+}
+
+// --------------------------------------------------
+//	Duplicates:
+// --------------------------------------------------
+prontera,161,184,4	duplicate(Warper)	Warper#prt	811
+morocc,161,97,4	duplicate(Warper)	Warper#mor	811
+geffen,113,63,4	duplicate(Warper)	Warper#gef	811
+payon,175,103,4	duplicate(Warper)	Warper#pay	811
+alberta,37,240,4	duplicate(Warper)	Warper#alb	811
+izlude,132,119,4	duplicate(Warper)	Warper#izl	811
+aldebaran,143,124,4	duplicate(Warper)	Warper#alde	811
+xmas,152,133,6	duplicate(Warper)	Warper#xmas	811
+comodo,185,157,4	duplicate(Warper)	Warper#com	811
+yuno,154,124,4	duplicate(Warper)	Warper#yuno	811
+amatsu,111,155,4	duplicate(Warper)	Warper#ama	811
+gonryun,155,127,4	duplicate(Warper)	Warper#gon	811
+umbala,131,150,3	duplicate(Warper)	Warper#umb	811
+niflheim,198,180,4	duplicate(Warper)	Warper#nif	811
+louyang,212,101,6	duplicate(Warper)	Warper#lou	811
+jawaii,242,201,4	duplicate(Warper)	Warper#jaw	811
+ayothaya,202,196,6	duplicate(Warper)	Warper#ayo	811
+einbroch,67,203,4	duplicate(Warper)	Warper#einbr	811
+lighthalzen,164,94,4	duplicate(Warper)	Warper#lhz	811
+einbech,173,134,6	duplicate(Warper)	Warper#einbe	811
+hugel,102,152,4	duplicate(Warper)	Warper#hug	811
+rachel,106,134,4	duplicate(Warper)	Warper#rac	811
+veins,222,133,4	duplicate(Warper)	Warper#ve	811
+moscovia,220,191,4	duplicate(Warper)	Warper#mos	811
