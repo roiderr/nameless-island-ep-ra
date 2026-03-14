@@ -558,16 +558,6 @@ Body:
     Title: Attitude to the New
   - Id: 2149
     Title: Attitude to the New
-  - Id: 2150
-    Title: Attitude to the New
-    Targets:
-      - Mob: PINGUICULA
-        Count: 30
-  - Id: 2151
-    Title: Attitude to the New
-    Targets:
-      - Mob: CORNUS
-        Count: 10
   - Id: 2152
     Title: Attitude to the New
   - Id: 2153
@@ -578,11 +568,6 @@ Body:
     Title: Attitude to the New
   - Id: 2156
     Title: Attitude to the New
-  - Id: 2157
-    Title: Attitude to the New
-    Targets:
-      - Mob: TATACHO
-        Count: 10
   - Id: 2158
     Title: Finding a Fairy
   - Id: 2159
@@ -1510,11 +1495,6 @@ Body:
     Title: Traditional Weapon
   - Id: 5054
     Title: Traditional Weapon
-  - Id: 5055
-    Title: Local Rising - Headless Horse
-    Targets:
-      - Mob: HEADLESS_MULE
-        Count: 15
   - Id: 5056
     Title: Local Rising - Tamruan
     Targets:
@@ -1784,11 +1764,6 @@ Body:
     Targets:
       - Mob: MEDUSA
         Count: 100
-  - Id: 5177
-    Title: High level collection request
-    Targets:
-      - Mob: PINGUICULA
-        Count: 100
   - Id: 5178
     Title: High level collection request
     Targets:
@@ -1798,11 +1773,6 @@ Body:
     Title: Highest level collection request
     Targets:
       - Mob: RAYDRIC
-        Count: 100
-  - Id: 5180
-    Title: Highest level collection request
-    Targets:
-      - Mob: NAGA
         Count: 100
   - Id: 5181
     Title: Highest level collection request
@@ -2023,21 +1993,6 @@ Body:
     Title: Messenger - Terra's Return
   - Id: 7071
     Title: Messenger - Invitation
-  - Id: 7074
-    Title: Rata Hunt
-    Targets:
-      - Mob: RATA
-        Count: 1
-  - Id: 7075
-    Title: Duneyrr Hunt
-    Targets:
-      - Mob: DUNEYRR
-        Count: 1
-  - Id: 7076
-    Title: "Wanted: Dandelion"
-    Targets:
-      - Mob: DANDELION_
-        Count: 1
   - Id: 7077
     Title: Collecting Dragon Eggs
   - Id: 7078
@@ -2263,11 +2218,6 @@ Body:
     Title: Mysterious Cryptogram - 2nd
   - Id: 7163
     Title: Mysterious Cryptogram - 2nd
-  - Id: 7164
-    Title: Hunt for shadow of deception
-    Targets:
-      - Mob: S_WIND_GHOST
-        Count: 1
   - Id: 7165
     Title: Key of deception
   - Id: 7166
@@ -2280,22 +2230,12 @@ Body:
     Title: Mysterious Cryptogram - 3rd
   - Id: 7170
     Title: Mysterious Cryptogram - 3rd
-  - Id: 7171
-    Title: Hunt for shadow of delusion
-    Targets:
-      - Mob: S_SKOGUL
-        Count: 1
   - Id: 7172
     Title: Key of delusion
   - Id: 7173
     Title: Message to Halled from Paul
   - Id: 7174
     Title: Mysterious Cryptogram - 4th
-  - Id: 7175
-    Title: Hunft for shadow of gaiety
-    Targets:
-      - Mob: S_SUCCUBUS
-        Count: 1
   - Id: 7176
     Title: Key of Gaiety
   - Id: 7177
@@ -2443,16 +2383,6 @@ Body:
     Title: "Paradise Advanced: Margaret Training"
   - Id: 7234
     Title: "Paradise Advanced: Margaret's Favor"
-  - Id: 7235
-    Title: "Paradise Advanced: Margaret Hunt 1"
-    Targets:
-      - Mob: NEPENTHES
-        Count: 1
-  - Id: 7236
-    Title: "Paradise Advanced: Margaret Hunt 2"
-    Targets:
-      - Mob: PINGUICULA
-        Count: 5
   - Id: 7237
     Title: "Paradise Advanced: Margaret Complete"
   - Id: 7238
@@ -4792,71 +4722,6 @@ Body:
     Title: Basic preparation
   - Id: 12098
     Title: Tour of dungeon
-  - Id: 12099
-    Title: Remove Root Cause
-    Targets:
-      - Mob: DRACO_EGG
-        Count: 10
-  - Id: 12100
-    Title: Violent Winged Insect
-    Targets:
-      - Mob: LUCIOLA_VESPA
-        Count: 12
-  - Id: 12101
-    Title: Work Interference
-    Targets:
-      - Mob: DRACO
-        Count: 5
-  - Id: 12102
-    Title: Intelligent Snakes
-    Targets:
-      - Mob: NAGA
-        Count: 10
-  - Id: 12103
-    Title: Legendary Creature
-    Targets:
-      - Mob: CORNUS
-        Count: 1
-  - Id: 12104
-    Title: Insects with an Appetite
-    Targets:
-      - Mob: CENTIPEDE
-        Count: 15
-  - Id: 12105
-    Title: Moving Rocks
-    Targets:
-      - Mob: BRADIUM_GOLEM
-        Count: 10
-  - Id: 12106
-    Title: A child on a flower
-    Targets:
-      - Mob: PINGUICULA
-        Count: 15
-  - Id: 12107
-    Title: Twisted Love
-    Targets:
-      - Mob: PINGUICULA_D
-        Count: 10
-  - Id: 12108
-    Title: Dangerous Plant Removal
-    Targets:
-      - Mob: NEPENTHES
-        Count: 12
-  - Id: 12109
-    Title: Larva Extermination
-    Targets:
-      - Mob: CENTIPEDE_LARVA
-        Count: 14
-  - Id: 12110
-    Title: Demon of Water
-    Targets:
-      - Mob: AQUA_ELEMENTAL
-        Count: 7
-  - Id: 12111
-    Title: Bird with ugly face
-    Targets:
-      - Mob: TATACHO
-        Count: 10
   - Id: 12117
     Title: Withered Flower
   - Id: 12118
@@ -5291,22 +5156,6 @@ Body:
   - Id: 13012
     Title: Majoruros Request timer
     TimeLimit: +1h
-  - Id: 13013
-    Title: Pinguicula Request
-    Targets:
-      - Mob: PINGUICULA
-        Count: 30
-  - Id: 13014
-    Title: Pinguicula Request timer
-    TimeLimit: +1h
-  - Id: 13015
-    Title: Luciola Vespa Request
-    Targets:
-      - Mob: LUCIOLA_VESPA
-        Count: 30
-  - Id: 13016
-    Title: Luciola Vespa Request timer
-    TimeLimit: +1h
   - Id: 13017
     Title: Desert Wolf Request
     Targets:
@@ -5370,22 +5219,6 @@ Body:
         Count: 20
   - Id: 13045
     Title: Anubis Request Timer
-    TimeLimit: +1h
-  - Id: 13046
-    Title: Tendrilion Request
-    Targets:
-      - Mob: TENDRILRION
-        Count: 1
-  - Id: 13047
-    Title: Tendrilion Request Timer
-    TimeLimit: +1h
-  - Id: 13048
-    Title: Tendrilion Request
-    Targets:
-      - Mob: TENDRILRION
-        Count: 1
-  - Id: 13049
-    Title: Tendrilion Request Timer
     TimeLimit: +1h
   - Id: 13050
     Title: The Laphine that loves the land
@@ -5478,46 +5311,6 @@ Body:
     Title: Bloody Page Research
   - Id: 13080
     Title: Bloody Page Research - Wait
-    TimeLimit: +1h
-  - Id: 13081
-    Title: Dark Pinguicula research
-    Targets:
-      - Mob: PINGUICULA_D
-        Count: 30
-  - Id: 13082
-    Title: Dark Pinguicula research - timer
-    TimeLimit: +1h
-  - Id: 13083
-    Title: Nepenthes research
-    Targets:
-      - Mob: NEPENTHES
-        Count: 30
-  - Id: 13084
-    Title: Nepenthes research - timer
-    TimeLimit: +1h
-  - Id: 13085
-    Title: Naga research
-    Targets:
-      - Mob: NAGA
-        Count: 30
-  - Id: 13086
-    Title: Naga research - timer
-    TimeLimit: +1h
-  - Id: 13087
-    Title: Centipede Larva research
-    Targets:
-      - Mob: CENTIPEDE_LARVA
-        Count: 20
-  - Id: 13088
-    Title: Centipede Larva research - timer
-    TimeLimit: +1h
-  - Id: 13089
-    Title: Cornus research
-    Targets:
-      - Mob: CORNUS
-        Count: 30
-  - Id: 13090
-    Title: Cornus research - timer
     TimeLimit: +1h
   - Id: 13091
     Title: Mystic Horn Research
@@ -5740,30 +5533,6 @@ Body:
         Count: 30
   - Id: 13154
     Title: Laurell Story - Wait
-    TimeLimit: +1h
-  - Id: 13155
-    Title: Morocc Story1
-    Targets:
-      - Mob: MOROCC_1
-        Count: 30
-  - Id: 13156
-    Title: Morocc Story1 - Wait
-    TimeLimit: +1h
-  - Id: 13157
-    Title: Morocc Story2
-    Targets:
-      - Mob: MOROCC_2
-        Count: 30
-  - Id: 13158
-    Title: Morocc Story2 - Wait
-    TimeLimit: +1h
-  - Id: 13159
-    Title: Morocc Story3
-    Targets:
-      - Mob: MOROCC_4
-        Count: 30
-  - Id: 13160
-    Title: Morocc Story3 - Wait
     TimeLimit: +1h
   - Id: 13161
     Title: Uni-horn Scaraba Story
