@@ -159,12 +159,12 @@ mjolnir_11	mapflag	nomemo
 moc_fild01	mapflag	nomemo
 moc_fild02	mapflag	nomemo
 moc_fild03	mapflag	nomemo
-//moc_fild04	mapflag	nomemo
-//moc_fild05	mapflag	nomemo
-//moc_fild08	mapflag	nomemo
+moc_fild04	mapflag	nomemo
+moc_fild05	mapflag	nomemo
+moc_fild08	mapflag	nomemo
 moc_fild09	mapflag	nomemo
-//moc_fild13	mapflag	nomemo
-//moc_fild14	mapflag	nomemo
+moc_fild13	mapflag	nomemo
+moc_fild14	mapflag	nomemo
 moc_fild15	mapflag	nomemo
 moc_fild16	mapflag	nomemo
 moc_fild17	mapflag	nomemo
@@ -250,8 +250,8 @@ que_hugel	mapflag	nomemo
 que_rachel	mapflag	nomemo
 que_san04	mapflag	nomemo
 que_thor	mapflag	nomemo
-poring_c01	mapflag	nomemo
-poring_c02	mapflag	nomemo
+//poring_c01	mapflag	nomemo
+//poring_c02	mapflag	nomemo
 
 //============================================================
 // Dungeons
@@ -743,28 +743,28 @@ bra_dun02	mapflag	nomemo
 //============================================================
 // Bossnia (Custom) #!todo Verify
 //============================================================
-bossnia_01	mapflag	nomemo
-bossnia_02	mapflag	nomemo
-bossnia_03	mapflag	nomemo
-bossnia_04	mapflag	nomemo
+//bossnia_01	mapflag	nomemo
+//bossnia_02	mapflag	nomemo
+//bossnia_03	mapflag	nomemo
+//bossnia_04	mapflag	nomemo
 
 //============================================================
 // RWC
 //============================================================
-2009rwc_01	mapflag	nomemo
-2009rwc_02	mapflag	nomemo
-2009rwc_03	mapflag	nomemo
-2009rwc_04	mapflag	nomemo
-2009rwc_05	mapflag	nomemo
-2009rwc_06	mapflag	nomemo
-2009rwc_07	mapflag	nomemo
-2009rwc_08	mapflag	nomemo
-2009rwc_f01	mapflag	nomemo
-2012rwc_01	mapflag	nomemo
-2012rwc_02	mapflag	nomemo
-2012rwc_03	mapflag	nomemo
-2012rwc_04	mapflag	nomemo
-2012rwc_05	mapflag	nomemo
-2012rwc_06	mapflag	nomemo
-2012rwc_07	mapflag	nomemo
-2012rwc_08	mapflag	nomemo
+//2009rwc_01	mapflag	nomemo
+//2009rwc_02	mapflag	nomemo
+//2009rwc_03	mapflag	nomemo
+//2009rwc_04	mapflag	nomemo
+//2009rwc_05	mapflag	nomemo
+//2009rwc_06	mapflag	nomemo
+//2009rwc_07	mapflag	nomemo
+//2009rwc_08	mapflag	nomemo
+//2009rwc_f01	mapflag	nomemo
+//2012rwc_01	mapflag	nomemo
+//2012rwc_02	mapflag	nomemo
+//2012rwc_03	mapflag	nomemo
+//2012rwc_04	mapflag	nomemo
+//2012rwc_05	mapflag	nomemo
+//2012rwc_06	mapflag	nomemo
+//2012rwc_07	mapflag	nomemo
+//2012rwc_08	mapflag	nomemo
