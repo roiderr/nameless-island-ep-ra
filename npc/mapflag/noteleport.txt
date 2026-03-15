@@ -172,8 +172,8 @@ kh_kiehl01	mapflag	noteleport
 kh_kiehl02	mapflag	noteleport
 que_rachel	mapflag	noteleport
 que_thor	mapflag	noteleport
-poring_c01	mapflag	noteleport
-poring_c02	mapflag	noteleport
+//poring_c01	mapflag	noteleport
+//poring_c02	mapflag	noteleport
 que_job01	mapflag	noteleport
 que_job02	mapflag	noteleport
 que_job03	mapflag	noteleport
@@ -462,23 +462,23 @@ bra_in01	mapflag	noteleport
 //============================================================
 // RWC
 //============================================================
-2009rwc_01	mapflag	noteleport
-2009rwc_02	mapflag	noteleport
-2009rwc_03	mapflag	noteleport
-2009rwc_04	mapflag	noteleport
-2009rwc_05	mapflag	noteleport
-2009rwc_06	mapflag	noteleport
-2009rwc_07	mapflag	noteleport
-2009rwc_08	mapflag	noteleport
-2009rwc_f01	mapflag	noteleport
-2012rwc_01	mapflag	noteleport
-2012rwc_02	mapflag	noteleport
-2012rwc_03	mapflag	noteleport
-2012rwc_04	mapflag	noteleport
-2012rwc_05	mapflag	noteleport
-2012rwc_06	mapflag	noteleport
-2012rwc_07	mapflag	noteleport
-2012rwc_08	mapflag	noteleport
+//2009rwc_01	mapflag	noteleport
+//2009rwc_02	mapflag	noteleport
+//2009rwc_03	mapflag	noteleport
+//2009rwc_04	mapflag	noteleport
+//2009rwc_05	mapflag	noteleport
+//2009rwc_06	mapflag	noteleport
+//2009rwc_07	mapflag	noteleport
+//2009rwc_08	mapflag	noteleport
+//2009rwc_f01	mapflag	noteleport
+//2012rwc_01	mapflag	noteleport
+//2012rwc_02	mapflag	noteleport
+//2012rwc_03	mapflag	noteleport
+//2012rwc_04	mapflag	noteleport
+//2012rwc_05	mapflag	noteleport
+//2012rwc_06	mapflag	noteleport
+//2012rwc_07	mapflag	noteleport
+//2012rwc_08	mapflag	noteleport
 
 //============================================================
 // Events
