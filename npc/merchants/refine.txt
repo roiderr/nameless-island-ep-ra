@@ -1187,7 +1187,7 @@ alberta_in,31,65,4	script	Repairman#alb	86,{
 	end;
 }
 
-moc_ruins,107,94,4	script	Repairman#moc	99,{
+morocc_in,71,41,4	script	Repairman#moc	99,{
 	callfunc "repairmain","Repairman";
 	end;
 }
