@@ -63,8 +63,8 @@ izlude,136,94,0	duplicate(MailBox)	Mailbox#iz	888
 
 // Morocc
 //============================================================
-moc_ruins,72,166,0	duplicate(MailBox)	Mailbox#1moc	888
-moc_ruins,156,52,0	duplicate(MailBox)	Mailbox#2moc	888
+morocc,166,110,0	duplicate(MailBox)	Mailbox#1moc	888
+morocc,168,262,0	duplicate(MailBox)	Mailbox#2moc	888
 
 // Geffen
 //============================================================
