@@ -383,7 +383,6 @@ niflheim,200,191,5	script	Bulletin Board#25	837,{
 	close;
 }
 
-/*
 moc_fild15,267,264,5	script	Bulletin Board#26	837,{
 	mes "[Ant Hell]";
 	mes "^6B1312Caution!^000000";
@@ -398,7 +397,6 @@ moc_fild15,267,264,5	script	Bulletin Board#26	837,{
 	mes "a boss monster called ^6B1312Phreeoni^000000 will appear at certain time.";
 	close;
 }
-*/
 
 glast_01,369,308,5	script	Bulletin Board#28	837,{
 	mes "[Glast Heim]";
